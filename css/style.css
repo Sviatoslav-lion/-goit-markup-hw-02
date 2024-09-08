@@ -1,0 +1,85 @@
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2e2f42;
+}
+.logo span {
+    color: #4d5ae5;
+}
+
+nav li {
+    font-weight: 500;
+    font-size: 16px;
+}
+address li {
+    font-weight: 400;
+    font-size: 16px;
+}
+address li a:focus {
+    color:#1fb864;
+}
+.head {
+    background-color: #2e2f42;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #2e2f42;
+    background-color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+}
+a:hover {
+    color:#568596;
+    
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 56px;
+}
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    cursor:pointer;
+}
+.selection-team {
+    background-color: #f4f4fd;
+}
+.selection-team li {
+    background-color: #fff;
+}
+.selection-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+}
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.advantages {
+    display:none;
+}
+.footer {
+    color: #f4f4fd;
+    background-color: #2e2f42;
+}
+
+
+
+
+
