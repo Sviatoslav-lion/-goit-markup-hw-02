@@ -78,10 +78,10 @@ ul {
     color: #ffffff;
 }
 .button:hover {
-    color:#404BBF;
+    background-color:#404BBF;
 }
 .button:focus {
-    color:#404BBF;
+    background-color:#404BBF;
 }
 
 .selection-team {
@@ -101,7 +101,7 @@ ul {
     color: #434455;
 }
 .advantages {
-    /*display:none;*/
+
 }
 .selection-title {
     font-weight: 700;
@@ -110,6 +110,7 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize; /*для визначення стилю написання тексту */
+    color: #2e2f42;
 }
 .footer {
     color: #f4f4fd;
@@ -119,7 +120,7 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.footer .logo .span- {
+.span {
     color: #f4f4fd ;
 }
 .footer-descripton {
