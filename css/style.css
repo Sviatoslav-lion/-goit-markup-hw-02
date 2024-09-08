@@ -21,7 +21,7 @@ ul {
     letter-spacing: 0.03em;     /* для визначення відступів між літерами */
     text-transform: uppercase;  /* для визначення способу відображення літер */
 }
-.logo span {
+.head-span {
     color: #2e2f42;
 }
 
@@ -120,7 +120,7 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.span {
+.foot-span {
     color: #f4f4fd ;
 }
 .footer-descripton {
