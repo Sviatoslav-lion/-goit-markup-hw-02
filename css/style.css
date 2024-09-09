@@ -23,7 +23,10 @@ a {
     letter-spacing: 0.03em;     /* для визначення відступів між літерами */
     text-transform: uppercase;  /* для визначення способу відображення літер */
 }
-.head-span {
+.head-span,
+.link,
+.title,
+.selection-title {
     color: #2e2f42;
 }
 
@@ -32,13 +35,13 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    /*color: #2e2f42;*/
 }
-.link:hover {
+.link:hover,
+.link:focus,
+.adress-link:hover,
+.adress-link:focus {
     color: #404bbf ;
-}
-.link:focus {
-    color: #404bbf;
 }
 .adress-menu {
     font-style: normal; /* для прибирання курсиву */
@@ -51,13 +54,6 @@ a {
     color: #434455;
 
 }
-.adress-link:hover {
-    color: #404bbf;
-}
-.adress-link:focus {
-    color: #404bbf;
-}
-
 
 .head {
     background-color: #2e2f42;
@@ -79,9 +75,7 @@ a {
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.button:hover {
-    background-color:#404BBF;
-}
+.button:hover,
 .button:focus {
     background-color:#404BBF;
 }
@@ -97,7 +91,7 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    /*color: #2e2f42;*/
 }
 .description {
     color: #434455;
@@ -112,7 +106,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize; /*для визначення стилю написання тексту */
-    color: #2e2f42;
+    /*color: #2e2f42;*/
 }
 .footer {
     color: #f4f4fd;
@@ -122,11 +116,12 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.foot-span {
+.foot-span,
+.footer-descripton {
     color: #f4f4fd ;
 }
 .footer-descripton {
-    color: #F4F4FD;
+    /*color: #F4F4FD;*/
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
